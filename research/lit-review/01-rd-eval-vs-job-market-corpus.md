@@ -91,9 +91,28 @@
 | "The reference corpus matters: Comparing the effect of different reference corpora on keyword analysis" | **참조 코퍼스(reference corpus) 선택이 키워드 분석 결과에 미치는 영향** — 본 연구가 "R&D 지표 코퍼스"와 "채용공고 코퍼스" 중 어느 쪽을 참조/타겟으로 둘지 설계할 때 방법론적으로 반드시 참고해야 할 문헌 | [researchgate.net](https://www.researchgate.net/publication/336040325_The_reference_corpus_matters_Comparing_the_effect_of_different_reference_corpora_on_keyword_analysis) |
 | "Corpus Linguistics in Legal Discourse," *Int J Semiot Law*, 2021 | 법률/정책 담론에 대한 코퍼스언어학적 접근 사례 — 본 연구의 "정책 코퍼스" 분석에 참고 가능 | [link.springer.com](https://link.springer.com/article/10.1007/s11196-021-09860-8) |
 
+### G. [2차 검색] 국내 학술DB(KCI/ScienceON/RISS) 직접 검색 결과
+
+1차 스크리닝의 한계(일반 웹검색)를 보완하기 위해 `includeDomains`로 kci.go.kr / scienceon.kisti.re.kr / riss.kr / journal.kci.go.kr을 직접 질의했습니다. (※ 이 역시 각 DB의 자체 검색엔진이 아니라 외부 인덱스를 경유한 결과이므로, 완전한 재현을 보장하지 않습니다. 확정 전 각 DB에서 직접 재검색 권장.)
+
+| 문헌 | 연도/저자(확인됨) | 핵심 내용 | 본 연구와의 관련성 | 링크 |
+|---|---|---|---|---|
+| 「국내 직무역량 연구동향 분석: 키워드 네트워크 및 토픽모델링 분석을 중심으로」 | KCI | 국내 학술지에 게재된 '직무역량' 관련 논문을 키워드 네트워크·토픽모델링으로 분석, 연구동향 파악 | **최우선 확인 대상.** 본 연구가 다루려는 '직무역량' 연구 지형을 이미 지도화했을 가능성이 있어, 본 연구의 공백 주장이 유지되는지 직접 검증해야 함 | [kci.go.kr](https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART003036082) |
+| 박정일 (2023), 「채용공고 빅데이터를 활용한 괜찮은 일자리 공급의 ...」 | 2023 · Cited by 2 | 채용공고 빅데이터 분석, 제조업 정책지원·수도권/비수도권 일자리 질 격차에 대한 정책 함의 도출 | 채용공고(시장 코퍼스) 분석 결과를 **정책 함의로 직접 연결**한 국내 선례 | [scienceon.kisti.re.kr](https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO202309343218064) |
+| 한국경제지리학회지 2026, Vol.29 No.1 게재 논문 | 2026 | 온라인 채용공고 데이터 + 공출현 네트워크 분석으로 AI 전환기 문화콘텐츠산업 직무수요·공간적 집적구조 분석 | **채용공고 코퍼스에 네트워크분석을 적용한 최신 국내 사례** — 본 연구의 '시장 코퍼스' 분석 기법 설계에 직접 참고 가능 | [kci.go.kr](https://www.kci.go.kr/kciportal/landing/journalArticleList.kci?vol_isse_id=VOL000195201&sere_id=001359) |
+| 「사물인터넷 인력수요 구조에 대한 분석과 전망」 | — | "사물인터넷 산업 실태조사" **정책조사 자료**와 **고용보험 데이터**를 비교하여 인력수요 전망 도출 | **구조적으로 가장 유사한 선례**: "정책/실태조사 자료" vs "고용 관련 시장 데이터"를 비교하는 2축 설계 — 단, 비교 대상이 R&D 평가지표는 아님 | [kci.go.kr](https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002898851) |
+| 「요구분석 기반 산업체 기초직무역량 비교 분석」 | KCI | 계열별 산업체가 요구하는 기초직무역량을 요구분석 방법으로 비교 | 산업체 요구역량 비교 방법론 참고 | [kci.go.kr](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002787219) |
+| 「키워드 네트워크 분석을 통한 코로나19 이후 ICT 중소벤처기업정책 비교분석」 | KCI | ICT 중소벤처 지원정책 문서를 코로나19 전후로 나눠 키워드 네트워크 분석 | **정책 문서(코퍼스)에 키워드 네트워크 분석을 적용한 국내 선례** — 본 연구의 '정책 코퍼스' 분석 축 방법론에 직접 참고 | [kci.go.kr](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002997178) |
+| 「대학생 취업에 관한 이론적 접근과 NCS 기반 채용의 활용가능성 탐색」 | KCI | 대학생 취업영향요인 문헌연구 + NCS기반 채용 활용가능성 탐색 | NCS-채용 연계 이론적 배경 | [kci.go.kr](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002065374) |
+| 「네트워크 분석 및 토픽모델링을 활용한 직업교육 연구 동향 분석」 | KCI | 직업교육연구·직업능력개발연구 학술지의 연구동향을 네트워크분석/토픽모델링으로 분석 | 연구동향분석 방법론 선례(위 직무역량 연구동향 분석과 유사 계열) | [kci.go.kr](https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003072420) |
+| 박자현 (2013), 「토픽모델링을 활용한 국내 문헌정보학 연구동향 분석」 | 2013 · Cited by 216 | 토픽모델링 기반 국내 학술 연구동향 분석의 방법론적 원형(매우 높은 피인용) | 연구동향분석 토픽모델링 방법론의 국내 표준 참조문헌으로 활용 가능 | [kci.go.kr](https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001758589) |
+| 「대학졸업생들의 중소기업 취업촉진 방안에 관한 연구: 기대가치이론을 ...」 | KCI | "산업현장에서 요구하는 인재와 대학을 거쳐 공급하는 인재 간의 불일치" 명시 | 국내 맥락에서 '인재 불일치(mismatch)'를 명시적으로 언급한 선례 | [kci.go.kr](https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001903544) |
+
+**2차 검색 스크리닝 메모**: (1) NIA의 AI·데이터사이언스 커리큘럼 연구가 KCI에도 정식 등재되어 있음을 확인(ART002731017, LinkedIn 채용공고 텍스트마이닝). (2) "사물인력연구"(IoT 인력수요)는 "정책조사 vs 고용데이터" 비교라는 점에서 본 연구와 구조적으로 가장 가깝지만 R&D 평가지표가 아닌 산업 실태조사라는 차이가 있음. (3) **가장 먼저 원문을 확인해야 할 문헌은 "국내 직무역량 연구동향 분석"**(ART003036082)으로, 이 논문이 이미 '직무역량'과 '평가지표/정책지표'를 비교한 하위주제를 다뤘는지 여부에 따라 본 연구의 공백 주장이 좁아지거나 유지될 수 있음.
+
 ---
 
-## 4. 종합(Synthesis)과 공백(Gap) 분석 — 잠정
+## 4. 종합(Synthesis)과 공백(Gap) 분석 — 잠정 (2차 검색 반영 수정)
 
 > 아래는 1차 스크리닝 결과에 대한 **잠정적** 해석이며, 원문 검증 전까지는 확정적 주장으로 쓰지 않는 것을 권합니다.
 
@@ -103,11 +122,13 @@
 4. **국내 NCS/교육과정 비교연구(E)**, 특히 NIA의 AI·데이터사이언스 커리큘럼 연구는 "채용공고 텍스트 분석 → 역량 도출 → 비교"라는 절차적 선례를 국내에서 제공하지만, 비교 대상이 해외 기업 요구역량이라는 점에서 본 연구와 차별화됨.
 5. **방법론(F)**: keyness/참조코퍼스 선택 문헌은 본 연구 설계(어느 코퍼스를 target/reference로 둘지, 어떤 정규화 지표를 쓸지) 단계에서 직접 적용 가능.
 
-**종합하면**, "국가R&D 평가지표"와 "채용시장 코퍼스"를 **직접 비교축으로 삼은 선행연구는 이번 스크리닝에서 발견되지 않았으며**, 이는 (a) 실제로 공백일 가능성과 (b) 검색 범위의 한계(전문 DB 미질의, 한국어 키워드 조합의 한계) 두 가지 해석이 모두 가능합니다. 다음 단계로 KCI·RISS·DBpia 등 국내 학술DB에 대한 직접 질의, 그리고 "정책지표 코퍼스 vs 채용공고 코퍼스" 조합의 영어/한국어 키워드를 더 넓혀 재검색하는 것을 제안합니다.
+**2차 검색(KCI/ScienceON/RISS 직접 질의) 반영 후 수정된 종합**: "국가R&D 평가지표"와 "채용시장 코퍼스"를 **직접 비교축으로 삼은 선행연구는 2차 검색에서도 확인되지 않았습니다.** 다만 (1) '직무역량' 연구동향을 이미 지도화한 논문(ART003036082)이 존재하고, (2) "정책/실태조사 자료 vs 고용데이터"를 비교한 구조적으로 유사한 선례(IoT 인력수요 연구, ART002898851)가 존재하며, (3) 정책 코퍼스에 키워드 네트워크 분석을 적용한 선례(ICT 중소벤처정책 비교, ART002997178)와 채용공고 코퍼스에 네트워크분석을 적용한 선례(한국경제지리학회지 2026)가 각각 따로 존재합니다. 즉, **"정책 코퍼스 분석" 방법론과 "시장 코퍼스 분석" 방법론은 국내에 각각 선례가 있으나, 두 코퍼스를 하나의 연구에서 직접 교차비교한 사례는 여전히 확인되지 않음** — 이것이 1차보다 더 구체화된 공백 주장입니다. 다만 이 결론은 (a) 외부 인덱스 경유 검색의 한계, (b) ART003036082 원문 미확인 상태에서의 잠정 결론이라는 점을 분명히 유지합니다.
 
 ## 5. 다음 단계 제안
 
-- [ ] KCI/RISS/DBpia 등 국내 DB 직접 검색 (본 스크리닝은 이를 대체하지 못함)
+- [x] KCI/RISS/DBpia 등 국내 DB 직접 검색 (1차 완료 — 외부 인덱스 경유 질의. §3-G 참조. DB 자체 검색엔진으로의 재확인은 여전히 권장)
+- [ ] **최우선**: 「국내 직무역량 연구동향 분석」(ART003036082) 원문 확보 및 세부 토픽/키워드 확인 — 본 연구의 공백 주장이 좁아지는지 검증
+- [ ] 「사물인터넷 인력수요 구조에 대한 분석과 전망」(ART002898851)의 "정책조사 vs 고용데이터" 비교 방법론 상세 검토
 - [ ] C, D, E 클러스터의 원문 전체 입수 후 방법론(특히 네덜란드 VET 연구, NIA 커리큘럼 연구) 상세 검토
 - [ ] 본 연구의 연구질문(RQ)과 방법론 블루프린트를 `deep-research`의 `research_question_agent`/`research_architect_agent`로 구체화 (현재는 lit-review 단독 모드로 수행하여 RQ 확정 단계는 생략됨)
 - [ ] 확정 후 `academic-paper`(내장) 스킬로 서론·이론적 배경 집필 단계로 핸드오프
